@@ -1,0 +1,19 @@
+{
+  "name": "scrollers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "puppeteer": "^24.32.0",
+    "puppeteer-core": "^24.0.0",
+    "@sparticuz/chromium": "^133.0.0"
+  }
+}

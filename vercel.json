@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+        {
+            "source": "/:username",
+            "destination": "/api?username=:username"
+        }
+    ],
+    "functions": {
+        "api/index.js": {
+            "maxDuration": 60
+        }
+    }
+}
